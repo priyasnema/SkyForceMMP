@@ -31,6 +31,9 @@ public class Base {
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 			System.out.println("abc");
+			System.out.println("abc");
+			
+			
 		}
 		else if(browser.equalsIgnoreCase("ie"))
 		{

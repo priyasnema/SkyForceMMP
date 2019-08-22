@@ -22,6 +22,7 @@ public String loginValidData(String username,String password)
 	pwtbox.sendKeys(password);
 	smbutton.click();
 	String user=driver.findElement(By.xpath("//h3[@class='page-header']")).getText();
+	System.out.println("abc");
 	return user;
 }
 public String loginInvalidData(String username,String password)
